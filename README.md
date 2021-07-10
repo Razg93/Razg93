@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Razg93
+- 👋 Hi, I’m Raz Gilad
 - 👀 I’m interested in computer vision, image processing, robotics and AI models.
 - 🌱 I’m currently working at Intel in the UX team as part of the WiFi and Bluetooth validation group.
 - 💞️ I’m looking to collaborate on ...
