@@ -12,30 +12,11 @@ LINES = []
 def grayscale(img):
     return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-#grayscaled = grayscale(image)
-
-#plt.figure(figsize=figsize)
-#plt.imshow(grayscaled,cmap="gray", vmin=0, vmax=255)
-#plt.show()
-
 def gaussian_blur(img, kernel_size):
     return cv2.GaussianBlur(img, (kernel_size, kernel_size), 0)
-  
-## apply gaussian blur
-#kernelSize = 5
-#gaussianBlur = gaussian_blur(grayscaled, kernelSize)
 
 def canny(img, low_threshold, high_threshold):
     return cv2.Canny(img, low_threshold, high_threshold)
-
-# canny
-#minThreshold = 100
-#maxThreshold = 200
-#edgeDetectedImage = canny(gaussianBlur, minThreshold, maxThreshold)
-
-#plt.figure(figsize=figsize)
-#plt.imshow(edgeDetectedImage,cmap="gray", vmin=0, vmax=255)
-#plt.show()
 
 def region_of_interest(img, vertices):
     mask = np.zeros_like(img)   
@@ -51,21 +32,6 @@ def region_of_interest(img, vertices):
    
     masked_image = cv2.bitwise_and(img, mask)
     return masked_image
-  
-#apply mask
-#lowerLeftPoint = [566, 880]
-#upperLeftPoint = [790, 432]
-#upperRightPoint = [856, 432]
-#lowerRightPoint = [1286, 861]
-
-#pts = np.array([[lowerLeftPoint, upperLeftPoint, upperRightPoint, 
-#lowerRightPoint]], dtype=np.int32)
-#masked_image = region_of_interest(edgeDetectedImage, pts)
-
-
-#plt.figure(figsize=figsize)
-#plt.imshow(masked_image,cmap="gray", vmin=0, vmax=255)
-#plt.show()
 
 def hough_lines(img, rho, theta, threshold, min_line_len, max_line_gap):
     lines = cv2.HoughLinesP(img, rho, theta, threshold, np.array([]), 
@@ -129,34 +95,9 @@ def draw_lines(img, lines, color=[0, 255, 0], thickness=8):
                       (lower_left_x, ymax_global), color, thickness)
         cv2.line(img, (upper_right_x, ymin_global), 
                       (lower_right_x, ymax_global), color, thickness)
-    
-    
-##hough lines
-#rho = 1
-#theta = np.pi/180
-#threshold = 30
-#min_line_len = 20 
-#max_line_gap = 20
-
-#houged, lines = hough_lines(masked_image, rho, theta, 
-#                  threshold, min_line_len, max_line_gap)
-
-
-#plt.figure(figsize=figsize)
-#plt.imshow(houged,cmap="gray", vmin=0, vmax=255)
-#plt.show()
 
 def weighted_img(img, initial_img, α=0.8, β=1., λ=0.):
     return cv2.addWeighted(initial_img, α, img, β, λ)
-  
-## outline the input image
-#colored_image = weighted_img(houged, image)
-
-#plt.figure(figsize=figsize)
-#plt.imshow(colored_image)
-#plt.show()
-
-
 
 def process_image(image):
     # grayscale the image
@@ -170,10 +111,6 @@ def process_image(image):
     minThreshold =200
     maxThreshold = 300
     edgeDetectedImage = canny(gaussianBlur, minThreshold, maxThreshold)
-
-    #plt.figure(figsize=figsize)
-    #plt.imshow(edgeDetectedImage)
-    #plt.show()
 
     # apply mask
     lowerLeftPoint = [59, 654]
@@ -217,7 +154,6 @@ while(cap.isOpened()):
             break
     else:
         break
-
 
 
 cap.release()
