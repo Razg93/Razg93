@@ -6,8 +6,12 @@
 
 - <img src="https://img.icons8.com/material-rounded/24/000000/linkedin--v1.png"/> LinkedIn - www.linkedin.com/in/raz-gilad-0b2a07180
 - <img src="https://img.icons8.com/material-outlined/24/000000/gmail-new.png"/> Email - RazGilad93@gmail.com
+- <img src="https://user-images.githubusercontent.com/50642442/134989093-bfe403ee-4159-4465-a278-768cd7440dc7.png"/> YouTube - https://www.youtube.com/channel/UCWQ9l3rXxRbSEPyqlkL2UTw
 
 <!---
 Razg93/Razg93 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+
+
