@@ -2,7 +2,7 @@
 - 👀 I’m interested in computer vision, robotics, image processing, AI models and communication.
 - 🌱 I’m Currently working at Intel in the UX team as part of the WiFi and Bluetooth validation group.
 
-- 👨‍🎓 My degree final project focused on autonomous self balancing robot, based on deep learning algorithm and the inverted pendulum principle.
+- 👨‍🎓 My BSc final project focused on autonomous self balancing robot, based on deep learning algorithm and the inverted pendulum principle.
 
 - <img src="https://img.icons8.com/material-rounded/24/000000/linkedin--v1.png"/> LinkedIn - www.linkedin.com/in/raz-gilad-0b2a07180
 - <img src="https://img.icons8.com/material-outlined/24/000000/gmail-new.png"/> Email - RazGilad93@gmail.com
