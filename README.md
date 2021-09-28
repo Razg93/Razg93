@@ -1,6 +1,6 @@
-- 👋 Hi, I’m Raz Gilad, electronic engineer with specialization in robotics and image proccessing.
+- 👋 Hi, my name is Raz Gilad. I'm an electronic engineer specializaing in robotics and image proccessing.
 - 👀 I’m interested in computer vision, robotics, image processing, AI models and communication.
-- 🌱 I’m Currently working at Intel in the UX team as part of the WiFi and Bluetooth validation group.
+- 🌱 I currently work at Intel in the UX team as part of the WiFi and Bluetooth validation group.
 
 - 👨‍🎓 My BSc final project focused on autonomous self balancing robot, based on deep learning algorithm and the inverted pendulum principle.
 
