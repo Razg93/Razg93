@@ -1,4 +1,4 @@
-- 👋 Hi, my name is Raz Gilad. I'm an electronic engineer specializaing in robotics and image proccessing.
+- 👋 Hi, my name is Raz Gilad. I'm an electronic engineer specializing in robotics and image proccessing.
 - 👀 I’m interested in computer vision, robotics, image processing, AI models and communication.
 - 🌱 I currently work at Intel in the UX team as part of the WiFi and Bluetooth validation group.
 
