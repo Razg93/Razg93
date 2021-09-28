@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Raz Gilad, 4th year electrical engineering student with specialization in robotics and image proccessing.
+- 👋 Hi, I’m Raz Gilad, electronic engineer with specialization in robotics and image proccessing.
 - 👀 I’m interested in computer vision, robotics, image processing, AI models and communication.
 - 🌱 I’m Currently working at Intel in the UX team as part of the WiFi and Bluetooth validation group.
 
